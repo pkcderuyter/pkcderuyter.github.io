@@ -1,0 +1,60 @@
+div#page-container {
+    margin:auto;
+    width: 800px;
+    border: 1px solid silver;
+    text-align: center;    
+    border-radius: 4px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.clicker {
+    padding: 20px;
+    /* border: 1px solid silver; */
+    text-align: center;
+    flex: .25;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.clicker img {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#beansCount {
+    text-align: center;    
+}
+
+#buildings {
+    /* border: 1px solid silver; */
+    padding: 10px;
+    width: auto;
+    flex: .75;
+}
+
+.building {
+    border: 1px solid silver;
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 4px;
+}
+
+button.building {
+    width: 100%;
+}
+
+.bigdiv {
+    height: 150px;
+    font-size: xx-large;
+}
+
+/* .building:hover {
+    background-color: #ECECEC; 
+} */
