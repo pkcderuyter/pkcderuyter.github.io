@@ -63,7 +63,7 @@ game.buildings.push(new Building(4, 'FooBar', 100000, 1000));
 game.buildings.push(new Building(5,'Fucks to Give',1000000,10000));
 game.buildings.push(new Building(6,'Do Teen Stuff',10000000,-100000));
 game.buildings.push(new Building(7, 'Duke Nukedem', 100000000, 100000));
-//game.buildings.push(new building(8, '₿it₿ean', ))
+game.buildings.push(new Building(8, '₿it₿ean',1500000000, 1000000));
 
 console.log(game.buildings);
 
@@ -171,6 +171,14 @@ function buildingClick(building) {
             alert("This is a very special microwave.  As you can see the number all go up to 11.  Most microwaves your nuking at 10 your all the way up where can you go from there? What we do if we need that extra push off the cliff we put it up to 11. 1 more powerful.");
         } else if (building.purchased === 110) {
             alert("And yet although bringing the surface temperature of the beans too a level that rivals the sun they were still frozen in the middle.");
+        }
+    }
+
+    if (building.name === '₿it₿ean') {
+        if (building.purchased === 1) {
+            alert('I like ₿it₿eans and I cannot lie');
+        } else if (building.purchased === 10) {
+            alert('Too the moon!');
         }
     }
 }
